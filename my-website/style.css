@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f9ebe9;
+    color: black;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.intro {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 20px;
+    margin: 15px 15%;
+    animation: fadeIn 15s;
+    color: rgb(108, 108, 233);
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+    
+
+.into_talk >p {
+    text-align: none;
+    margin: 70px 15%;
+    font-size: 1.4rem;
+    
+
+}
+
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+
+hr {
+   border-radius: 90%;
+   width: 50%;
+   margin:  40px 25%;
+}
+
+
+.service {
+    
+    margin-top: 70px;
+    background-color: #808080;
+    /* background-image: linear-gradient( #ffc709, #1736f5); */
+    /* color: #d5d5d5; */
+    padding-bottom: 90px;
+    padding-top: 30px;
+}
+
+.services >div {
+    /* margin: 30px 20px; */
+    /* padding: 20px 30px; */
+    
+    
+} 
+
+.service> h3{
+    font-size: 1.8rem;
+    text-align: center;
+    color: #251e1e;
+    padding-top: 20px;
+}
+
+
+
+.dev > h3{
+    font-size: 1.3rem;
+    color: #ffc709;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.dev > p {
+    font-size: 1.4rem;
+    margin: 10px 20%;
+}
+
+
+        /* foooter styling */
+
+
+
+.footer {
+    height: 160px;
+    background-color: rgb(108, 108, 233);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 15%;
+}
+
+.footer_title {
+ text-align: center;
+ font-size: 1.1rem;
+ margin: 0 2px;
+}
+
+.contact > div {
+    margin: 15px 10px;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    
+}
+
+
+
+.social {
+    display: inline-flex;
+    /* text-align: center;
+    font-weight: bold; */
+    margin: 0 15%;
+}
+
+.social >a> img {
+    width: 40px;
+    height: 40px;
+    margin: 0 6px;
+}
+
+.social > a {
+    display: inline-flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+.notice {
+    display: inline-flex;
+    font: 1em sans-serif;
+    margin: 0 12%;
+}
+
+.notice > img {
+    width: 20px;
+    height: 20px;
+    margin: 0 3px;
+}
+
+.copywrite {
+    font-family: serif; 
+    font-weight: 500; 
+    font-size: 1.1rem;
+    margin-top: 25px;
+}
+
+
+@media only screen and (max-width: 720px) {
+
+    .intro{
+        font-size: 2.3rem;
+    }
+
+    .into_talk >p {
+        text-align: none;
+        font-size: 1rem;
+        margin: 70px 4%;
+    }
+
+    .service {
+        margin-top: 50px;
+    }
+
+    .services >div {
+        padding: 10px 8px;
+    }
+    .dev > p {
+        margin: 10px 2%;
+        font-size: 1rem;
+    }
+    .dev > h3{ 
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+        margin: 10px 10%;
+    }
+
+    .footer_title {
+        font-size: 0.8rem;
+        margin: 0 1px;
+    }
+    .social >a> img {
+        width: 25px;
+        height: 25px;
+        margin: 0 3px;
+    }
+
+    .notice {
+        font-family:  serif;
+    }
+
+    .notice > img {
+        width: 15px;
+        height: 15px;
+        margin: 0;
+    }
+
+    .contact > div {
+        font-size: 0.9rem;
+        
+        flex-wrap: wrap;
+    }
+
+    .copywrite {
+        font-size: 0.9rem;
+        margin-top: 15px;
+        font-weight: 530;
+    }
+  }
+

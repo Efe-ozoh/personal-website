@@ -1,112 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="public/coding.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Pacifico&display=swap" rel="stylesheet">
-    <title>Ozoh Efe</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ozoh Efe | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Pacifico&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-    <h1 class="intro">Welcome to My <br>Space</h1>
+  <!-- Floating Background Shapes -->
+  <div class="floating-shapes">
+    <span></span><span></span><span></span>
+  </div>
 
-    <div class="into_talk">
-        <p>Hi there👋, I'm Efe a tech lover from Nigeria. Good to have you view my page.
-        I deal on tech and media department and aspects, feel free to check out my services below 
-        and also make sure to DM me if you need any of my services or if you think I can help you
-        in anyway.</p>
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" id="themeToggle">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="profile-pic">
+      <img src="public/profile.png" alt="Ozoh Efe" />
     </div>
+    <h1 class="intro">Hi, I'm <span>Efe</span></h1>
+    <h2 class="typing"></h2>
 
-    <!-- horizontal line -->
+    <p class="hero-text">
+      A creative <b>Web Developer</b>, <b>Graphic Designer</b> & <b>Photographer</b>
+      from Nigeria, building clean digital experiences.
+    </p>
 
-       <hr>
+    <a href="#contact" class="cta-btn">Hire Me</a>
+  </section>
 
+  <!-- ABOUT -->
+  <section class="section reveal">
+    <h2>About Me</h2>
+    <p>
+      I’m a self-taught tech enthusiast with 3+ years experience building web
+      applications, designs, and visual content. I love turning ideas into
+      functional, beautiful digital products.
+    </p>
+  </section>
 
-    <div class="service">
-        <h3><b>My specialization</b></h3>
-           <div class="services">
-            <div class="dev">
-                <h3>Web development</h3>
-                <p>I have 3 years experience as a self-taught web developer with cool projects to 
-                    show my professionalism as a web dev. You can check them out on my github and
-                    bitbucket account provided below. I base on javascript(including frameworks such as reactjs, and nextjs),
-                     css(bootstrap e.t.c), html, nonSQL and SQL.</p>
-            </div>
+  <!-- SERVICES -->
+  <section class="section reveal">
+    <h2>What I Do</h2>
 
-            <div class="dev">
-                <h3>Graphic designing</h3>
-                <p>Due to my creative ideology and knowledge. I create cool professional graphics designs
-                    in logos, graphic designs and graphic mock-ups, covers and banners. <a href="http://www.instagram.com/herosdesign59"><b>Click here</b></a> to check out my designs</p>
-                </p>
-            </div>
+    <div class="services">
+      <div class="card">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>
+          JavaScript, React, Next.js, HTML, CSS, MongoDB, SQL.
+          I build responsive, scalable web apps.
+        </p>
+      </div>
 
-            <div class="dev">
-                <h3>Photography & Photo Editing</h3>
-                <p>I offer photography services of different types such as wedding photoghraphy, modeling or portrait photography
-                    and also an expert in photo editing and retouching. <a href="http://www.instagram.com/herography50"><b>Click here</b></a> to check out my work</p>
-            </div>
-           </div>
+      <div class="card">
+        <i class="fas fa-palette"></i>
+        <h3>Graphic Design</h3>
+        <p>
+          Logos, branding, banners, mockups and social media designs.
+        </p>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-camera"></i>
+        <h3>Photography</h3>
+        <p>
+          Portraits, events, photo editing and professional retouching.
+        </p>
+      </div>
     </div>
+  </section>
 
-    <div class="footer">
-
-        <div class="notice">
-        <img src="public/exclamation.png" alt="notice">
-        <h4 class="footer_title">Feel free to contact on my social media handles below</h4>
-        </div>
-
-        <div class="contact">
-            
-
-            <div class="social">
-                <a href="https://twitter.com/Ozoh17">
-
-                <img src="public/twitter.png" alt="twitter">
-                
-            </a>
-            </div>
-
-            <div class="social">
-                <a href="https://www.linkedin.com/in/efe-osikhena-ozoh-657441241/">
-                <img src="public/linkedin.png" alt="linkedin">
-                
-            </a>
-            </div>
-
-            <div class="social">
-                <a href="http://www.instagram.com/herosdesign59/">
-
-                <img src="public/instagram.png" alt="instagram">
-                
-            </a>
-            </div>
-
-            <div class="social">
-                <a href="ozohefe@gmail.com">
-
-                <img src="public/email.png" alt="email">
-             
-            </a>
-            </div>
-           
-
-            <div class="social">
-                <a href="https://github.com/Efe-ozoh">
-
-                <img src="public/github.png" alt="email">
-                
-            </a>
-            </div>
-        </div>
-
-        <h4 class="copywrite">Designed by Efe ©2024</h4>
+  <!-- SKILLS -->
+  <section class="section reveal">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Next.js</span>
+      <span>Node.js</span>
+      <span>MongoDB</span>
+      <span>UI/UX</span>
+      <span>Photoshop</span>
+      <span>Figma</span>
     </div>
-</section>
-    
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section reveal" id="contact">
+    <h2>Let’s Work Together</h2>
+
+    <div class="socials">
+      <a href="https://twitter.com/Ozoh17"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/efe-osikhena-ozoh-657441241/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Efe-ozoh"><i class="fab fa-github"></i></a>
+      <a href="mailto:ozohefe@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Designed by Efe © 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
